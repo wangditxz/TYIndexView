@@ -12,6 +12,7 @@
 		01E1475121A292A0006BC293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E1474F21A292A0006BC293 /* Main.storyboard */; };
 		01E1475321A292A3006BC293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E1475221A292A3006BC293 /* Assets.xcassets */; };
 		01E1475621A292A3006BC293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E1475421A292A3006BC293 /* LaunchScreen.storyboard */; };
+		01E1475F21A29398006BC293 /* TYIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E1475E21A29398006BC293 /* TYIndexView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		01E1475221A292A3006BC293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01E1475521A292A3006BC293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01E1475721A292A3006BC293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E1475E21A29398006BC293 /* TYIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYIndexView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		01E1474A21A292A0006BC293 /* TYIndexView */ = {
 			isa = PBXGroup;
 			children = (
+				01E1475D21A29380006BC293 /* indexView */,
 				01E1474B21A292A0006BC293 /* AppDelegate.swift */,
 				01E1474D21A292A0006BC293 /* ViewController.swift */,
 				01E1474F21A292A0006BC293 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				01E1475721A292A3006BC293 /* Info.plist */,
 			);
 			path = TYIndexView;
+			sourceTree = "<group>";
+		};
+		01E1475D21A29380006BC293 /* indexView */ = {
+			isa = PBXGroup;
+			children = (
+				01E1475E21A29398006BC293 /* TYIndexView.swift */,
+			);
+			path = indexView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				01E1474E21A292A0006BC293 /* ViewController.swift in Sources */,
 				01E1474C21A292A0006BC293 /* AppDelegate.swift in Sources */,
+				01E1475F21A29398006BC293 /* TYIndexView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
