@@ -99,7 +99,7 @@ class TYIndexView: UIControl {
         
         if keyPath == key_center || keyPath == key_frame {
             self.frame = self.tableView.frame;
-            for (index, textLayer) in self.subTextLayers.enumerated() {
+            for (index, textLayer) in subTextLayers.enumerated() {
                 textLayer.frame = CGRect(x: Double(Float(bounds.size.width) - config.indexItemRightMargin - config.indexItemHeight),
                                          y: Double(SCGetTextLayerCenterY(position: Float(index), margin: kSCIndexViewMargin, space: kSCIndexViewSpace) - config.indexItemHeight / 2),
                                          width: Double(config.indexItemHeight),
